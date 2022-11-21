@@ -1,0 +1,65 @@
+Toolchain path: /home/aidanp/.esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc
+Toolchain version: esp-2020r3-49-gd5524c1
+Compiler version: 8.4.0
+Python requirements from /home/aidanp/.esp/ESP8266_RTOS_SDK/requirements.txt are satisfied.
+MONITOR
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7536, room 16 
+tail 0
+chksum 0xe6
+load 0x3ffe8408, len 24, room 8 
+tail 0
+chksum 0x5f
+load 0x3ffe8420, len 3472, room 8 
+tail 8
+chksum 0x38
+csum 0x38
+[0;32mI (44) boot: ESP-IDF v3.4-73-gd48c4c17-dirty 2nd stage bootloader[0m
+[0;32mI (44) boot: compile time 14:24:42[0m
+[0;32mI (45) boot: SPI Speed      : 40MHz[0m
+[0;32mI (51) boot: SPI Mode       : DOUT[0m
+[0;32mI (57) boot: SPI Flash Size : 1MB[0m
+[0;32mI (63) boot: Partition Table:[0m
+[0;32mI (69) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (80) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (92) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (103) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (115) boot: End of partition table[0m
+[0;32mI (121) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1da7c (121468) map[0m
+[0;32mI (188) esp_image: segment 1: paddr=0x0002da94 vaddr=0x4022da8c size=0x0772c ( 30508) map[0m
+[0;32mI (202) esp_image: segment 2: paddr=0x000351c8 vaddr=0x3ffe8000 size=0x00544 (  1348) load[0m
+[0;32mI (203) esp_image: segment 3: paddr=0x00035714 vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (214) esp_image: segment 4: paddr=0x0003579c vaddr=0x40100080 size=0x050d0 ( 20688) load[0m
+[0;32mI (236) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (259) INIT: Do you want to run tests instead of the default operation? y/N[0m
+n
+[0;32mI (3558) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (3562) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (3573) main: cnt: 1
+[0m
+[0;32mI (4570) main: cnt: 2
+[0m
+[0;32mI (5570) main: cnt: 3
+[0m
+[0;32mI (5572) main: GPIO[2] intr, val: 0, times called: 1
+[0m
+[0;32mI (6570) main: cnt: 4
+[0m
+[0;32mI (7570) main: cnt: 5
+[0m
+[0;32mI (7571) main: GPIO[2] intr, val: 0, times called: 2
+[0m
+[0;32mI (8570) main: cnt: 6
+[0m
+[0;32mI (9570) main: cnt: 7
+[0m
+[0;32mI (9571) main: GPIO[2] intr, val: 0, times called: 3
+[0m
+[0;32mI (10571) main: cnt: 8
+[0m
+[0;32mI (11571) main: cnt: 9
+[0m
+[0;32mI (11572) main: GPIO[2] intr, val: 0, times called: 4
+[0m
